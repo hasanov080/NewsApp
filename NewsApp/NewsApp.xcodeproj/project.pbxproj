@@ -48,6 +48,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1227E09B28CCA88E00D17FE3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				126A90B628CB01B800EB37D2 /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		1227E09C28CCA89800D17FE3 /* DescriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				12761EA328CC5D8C008758C7 /* WebView.swift */,
+				126A90D228CB4DBE00EB37D2 /* DescriptionView.swift */,
+			);
+			path = DescriptionView;
+			sourceTree = "<group>";
+		};
 		126A90A828CB01B800EB37D2 = {
 			isa = PBXGroup;
 			children = (
@@ -68,9 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				126A90B428CB01B800EB37D2 /* NewsAppApp.swift */,
-				126A90B628CB01B800EB37D2 /* ContentView.swift */,
-				12761EA928CC8B4A008758C7 /* SaveView */,
+				1227E09B28CCA88E00D17FE3 /* MainView */,
 				126A90C428CB09EF00EB37D2 /* HomeView */,
+				12761EA928CC8B4A008758C7 /* SaveView */,
+				1227E09C28CCA89800D17FE3 /* DescriptionView */,
 				126A90B828CB01B900EB37D2 /* Assets.xcassets */,
 				126A90CB28CB2D0400EB37D2 /* Extensions.swift */,
 				126A90BA28CB01B900EB37D2 /* Preview Content */,
@@ -100,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				126A90C228CB08EB00EB37D2 /* HomeView.swift */,
-				12761EA328CC5D8C008758C7 /* WebView.swift */,
-				126A90D228CB4DBE00EB37D2 /* DescriptionView.swift */,
 				12761EA728CC77E6008758C7 /* ListCell.swift */,
 			);
 			path = View;
